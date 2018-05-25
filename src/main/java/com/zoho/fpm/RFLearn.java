@@ -74,7 +74,5 @@ public class RFLearn {
 
 	    RandomForestRegressionModel rfModel = (RandomForestRegressionModel)(model.stages()[1]);
 	    System.out.println("Learned regression forest model:\n" + rfModel.toDebugString());
-
-	    SparkUtils.sparkSession.stop();	    
 	}
 }

@@ -52,7 +52,7 @@
             <artifactId>exec-maven-plugin</artifactId>
             <version>1.2.1</version>
             <configuration>
-                <mainClass>com.zoho.fpm.RFLearn</mainClass>
+                <mainClass>com.zoho.fpm.Demo</mainClass>
             </configuration>
         </plugin>        
 	<plugin>
